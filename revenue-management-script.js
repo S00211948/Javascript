@@ -28,7 +28,7 @@ var Revenue = window.Revenue || {};
 
         // Get the current start date value
         var startDate = formContext.getAttribute("cr30a_startdate").getValue();
-        console.log("StartDate: " + startDate);
+        //Check that a date has been selected
         if(startDate !== null)
         {
             // Create a new date object with the year and month from the input date
